@@ -1,0 +1,380 @@
+::-webkit-scrollbar {
+    display: none;
+    }
+body {
+    margin:0;
+    background-color: #E8B4B8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar {
+    transition: 0.4s;
+}
+ul:hover {
+    opacity: 1.5;
+    
+}
+.navul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #67595E;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+}
+
+.navul li {
+  float: left;
+}
+.nava {
+  display: block;
+  color: #E8B4B8;
+  text-align: center;
+  padding: 30px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ .nava:hover:not(#active) {
+  background-color: #A49393;
+}
+.navul #active {
+  background-color: #E8B4B8;
+  color: #67595E;
+}
+.item1 {
+    width: 100%;
+    height: 880px;
+    background-image: url(item1.jpg);
+}
+.emailinfo {
+    filter: drop-shadow(20px 20px 20px #fb515e);
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 12%;
+    font-size: 25px;
+    color: #fb515e;
+}
+#joinbutton {
+    width: 20%;
+    height: 75px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 400px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(238, 119, 129);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#joinbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#joinbutton span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#joinbutton:hover span {
+    padding-right: 25px;
+ }
+#joinbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#storefront {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    width: 60%;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.info {
+    width: 100%;
+    height: 600px;
+    background-color: #E8B4B8;
+    text-align: center;
+}
+.info p {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    width: 60%;
+    font-size: 16px;
+}
+.info img {
+    width: 20%;
+    height: auto;
+}
+footer {
+    overflow: hidden;
+    background-color: #252324;
+    padding-bottom: 1%;
+    outline: #252324 solid 5px;
+    right: 0;bottom:0;left:0;
+}
+footer a {
+    text-decoration: underline;
+    color: #E8B4B8;
+}
+footer h3 {
+    color: rgb(238, 119, 129);
+}
+.footerul {
+    text-align: center;
+    position: absolute;
+    width: 33%;
+    height: auto;
+    list-style-type: none;
+    font-size: 10px;
+}
+.footerul2 {
+    float: right;
+    width: 33%;
+    height: auto;
+    list-style-type: none;
+    font-size: 10px;
+    text-align: center;
+}
+.footerul3 {
+    float: right;
+    width: 33%;
+    height: auto;
+    list-style-type: none;
+    font-size: 10px;
+    text-align: center;
+}
+.footerul3 li{
+    text-decoration: underline;
+    color: #E8B4B8;
+}
+/* Speical Page */
+.speicals {
+    width: 100%;
+    height: 840px;
+    margin-top: 84px;
+    text-align: center;
+}
+.speicals #joinbutton {
+    width: 20%;
+    height: 75px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.speicals p {
+    width: 30%;
+    padding-left: 35%;
+}
+.speicals #box > * {
+    width: 15%;
+    float: left;
+    margin: 0;
+    padding: 5%;
+    padding-top: 1%;
+}
+.speicals #box button {
+    width: 7.5%;
+    height: 7.5%;
+    min-height: 60px;
+    max-height: 60px;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+/* Contact Page */
+.contact {
+    text-align: center;
+    height: 800px;
+    margin-top: 84px;
+}
+.contact h4 {
+    font-weight: normal;
+}
+.contact li {
+    text-align: left;
+    margin: 15px;
+    font-weight: bold;
+}
+.contact img {
+    width: 40%;
+    height: auto;
+    outline: white solid 5px;
+}
+
+/* About Page */
+.about {
+    margin-top: 5%;
+}
+.about img {
+    width: 40%;
+    float: left;
+    outline: solid 3px white;
+}
+.about > * {
+    margin-left: 25%;
+    padding: 2%;
+    margin-bottom: 2%;
+    width: 40%;
+    text-align: center;
+}
+.about .about3 {
+    margin-bottom: 6%;
+}
+.about h3 {
+    font-size: 25px;
+}
+/* Join Page */
+.join {
+    margin: 5%;
+}
+.join img {
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
+    outline: white solid 3px;
+}
+.join h1 {
+    text-align: center;
+}
+.join p {
+    font-weight: bold;
+}
+.join form {
+    margin-top: 2%;
+}
+.join #button {
+    background-color: rgb(238, 119, 129);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.join input[type=text]{
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(238, 119, 129);
+    border-radius: 4px;
+}
+.join #limited {
+    text-align: center;
+    font-size: 17px;
+}
+/* Food Pages */
+.food {
+    margin-top: 5%;
+    text-align: center;
+}
+.food img {
+    width: 40%;
+    outline: solid white 3px;
+}
+.food p {
+    width: 30%;
+    margin-left: 35%;
+    font-weight: 400;
+}
+/* Menu Page */
+.menu h1 {
+    margin-top: 84px;
+    text-align: center;
+}
+.menu p {
+    text-align: center;
+}
+.comments {
+    font-weight: bold;
+}
+/* Img's of the food */
+#item2 {
+    float: left;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+#item3 {
+    float: right;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+#item4 {
+    float: left;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+#item5 {
+    float: right;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+#item6 {
+    float: left;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+}
+#item7 {
+    float: right;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    margin: 5%;
+}
+#box {
+    overflow: auto;
+    height: auto;
+}
+#box img {
+    outline: solid 3px white;
+}
+#box button {
+    width: 15%;
+    height: 15%;
+    min-height: 20px;
+    max-height: 150px;
+    position: absolute;
+    margin-left: 12.5%;
+    margin-bottom: 5%;
+    margin-top: 7.5%;
+    background-color: rgb(238, 119, 129);
+    border: none;
+    color: white;
+    opacity: 0.85;
+    border-radius: 4px;
+    transition: 1s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box button:hover {
+    opacity: 1;
+    filter: drop-shadow(25px 25px 20px rgba(0,0,0,0.9));
+}
